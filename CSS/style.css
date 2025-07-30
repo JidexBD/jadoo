@@ -1,9 +1,9 @@
 @import url("abstracts/colors.css");
-@import url("base/_base.css");
-@import url("base/_reset.css");
-@import url("base/_typography.css");
-@import url("components/_button.css");
-@import url("layouts/_footer.css");
-@import url("layouts/_main.css");
-@import url("layouts/_navbar.css");
+@import url("base/base.css");
+@import url("base/reset.css");
+@import url("base/typography.css");
+@import url("components/button.css");
+@import url("layouts/footer.css");
+@import url("layouts/main.css");
+@import url("layouts/navbar.css");
 @import url("layouts/header.css");
