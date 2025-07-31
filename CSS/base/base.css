@@ -1,0 +1,4 @@
+/* stuffs that should be in the body tag and html tag */
+html {
+  scroll-behavior: smooth;
+}
