@@ -10,7 +10,56 @@ html {
 body {
   font-family: var(--font-1);
   color: var(--text-color);
-  max-width: 1400px;
-  width: 90%; /* for responsiveness 1400 for large screen and the smaller ones will take 90% of the screen */
-  margin: 0 auto; /* the auto calculates how much space should be at the left and right */
+  font-size: var(--size-4);
+  /* max-width: 1400px; */
+  /*width: 90%;   */ /* for responsiveness 1400 for large screen and the smaller ones will take 90% of the screen */
+
+  /*margin: 0 auto;*/ /* the auto calculates how much space should be at the left and right */
+}
+
+/* general styles  */
+
+h1 {
+  font-family: var(--font-2);
+  font-size: var(--size-1);
+  font-weight: var(--w2);
+  line-height: 8.9rem;
+  letter-spacing: -4%;
+}
+
+h2 {
+  font-family: var(--font-2);
+  font-size: var(--size-2);
+  font-weight: var(--w2);
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--h2-text);
+}
+
+h3 {
+  font-family: var(--font-1);
+  font-size: var(--size-3);
+  font-weight: var(--w2);
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+h4 {
+  font-family: var(--font-1);
+  font-size: var(--size-5);
+  font-weight: var(--w3);
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--text-color);
+}
+
+p {
+  font-family: var(--font-1);
+  font-size: var(--size-4);
+  font-weight: var(--w1);
+}
+
+a {
+  text-decoration: none;
+  font-size: var(--size-4);
 }

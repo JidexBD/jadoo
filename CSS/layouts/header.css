@@ -1,0 +1,18 @@
+/* header and the sections inside */
+header {
+  padding: 0rem 11.9rem; /* margin did not work because of the nature of the  backgroud image i guess*/
+  background-image: url(/images/Decore.png);
+
+  background-size: 35% 65%; /* honestly i used percent cause i was scare od the media query and % is good for images */
+  background-repeat: no-repeat;
+  background-position: top right;
+
+  /* --- mr jerry's method--/
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh; */
+}
+header .hero-section {
+  display: flex;
+  justify-content: space-evenly;
+}
