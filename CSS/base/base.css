@@ -1,4 +1,16 @@
 /* stuffs that should be in the body tag and html tag */
+
+/* affects the whole html */
 html {
+  font-size: 62.5%; /* so we can have 10 px as 1 rem for responsiveness 10 *100/ 16 = 62.5% or u can just do 16/10 * 100 */
   scroll-behavior: smooth;
+}
+
+/* stuff that we can see on screen */
+body {
+  font-family: var(--font-1);
+  color: var(--text-color);
+  max-width: 1400px;
+  width: 90%; /* for responsiveness 1400 for large screen and the smaller ones will take 90% of the screen */
+  margin: 0 auto; /* the auto calculates how much space should be at the left and right */
 }

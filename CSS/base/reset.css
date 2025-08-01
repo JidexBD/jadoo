@@ -1,5 +1,6 @@
+/* universal selector to reset all the space in our html */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; /* border box is used so that the length of stuff is containted within the border  bbasically 200px width is 200px width*/
 }
