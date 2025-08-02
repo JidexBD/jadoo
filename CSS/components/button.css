@@ -1,0 +1,29 @@
+/* container to hold buttons */
+.btn {
+  border: 0.9px solid var(--bc-1);
+  border-radius: 10px;
+  background-color: antiquewhite;
+  padding: 1.8rem 2.7rem;
+  box-shadow: 0rem 2rem 3.5rem rgba(241, 165, 1, 0.1);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-1 {
+  background-color: var(--color-1);
+  border: none;
+  color: white;
+}
+
+.btn-1:hover {
+  background-color: #ffb20d;
+}
+
+.btn-1:active {
+  background-color: var(--color-2);
+}
+
+.btn-2 {
+  border: transparent;
+  color: var(--h1-text);
+}

@@ -11,10 +11,6 @@ body {
   font-family: var(--font-1);
   color: var(--text-color);
   font-size: var(--size-4);
-  /* max-width: 1400px; */
-  /*width: 90%;   */ /* for responsiveness 1400 for large screen and the smaller ones will take 90% of the screen */
-
-  /*margin: 0 auto;*/ /* the auto calculates how much space should be at the left and right */
 }
 
 /* general styles  */

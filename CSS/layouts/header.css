@@ -1,18 +1,35 @@
-/* header and the sections inside */
 header {
-  padding: 0rem 11.9rem; /* margin did not work because of the nature of the  backgroud image i guess*/
-  background-image: url(/images/Decore.png);
-
-  background-size: 35% 65%; /* honestly i used percent cause i was scare od the media query and % is good for images */
+  padding: 5rem 11.9rem; /* i tired using margin but it didn't work*/
+  background-image: url(/images/hero_bg.png);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: top right;
-
-  /* --- mr jerry's method--/
-  /* background-size: cover;
-  background-repeat: no-repeat;
-  height: 80vh; */
+  background-position: center;
+  height: 80vh;
 }
+
 header .hero-section {
   display: flex;
-  justify-content: space-evenly;
+}
+/* left side of my hero section */
+.left-hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-hero h3 {
+  color: var(--color-2);
+  margin-bottom: 2.4rem;
+}
+
+.left-hero h1 {
+  color: var(--h1-text);
+  max-width: 60rem;
+  width: 100%; /* for responsive desogn */
+  margin-bottom: 3rem;
+}
+
+.left-hero p {
+  max-width: 40rem;
+  width: 100%;
+  margin-bottom: 3.4rem;
 }
