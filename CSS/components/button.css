@@ -1,6 +1,11 @@
 /* container to hold buttons */
+.btn-sec {
+  display: flex;
+  gap: 4.4rem;
+}
+
 .btn {
-  border: 0.9px solid var(--bc-1);
+  border: none;
   border-radius: 10px;
   background-color: antiquewhite;
   padding: 1.8rem 2.7rem;
@@ -24,6 +29,17 @@
 }
 
 .btn-2 {
-  border: transparent;
+  border: none;
   color: var(--h1-text);
+  background-color: transparent;
+}
+
+.btn-2:hover {
+  background-color: var(--color-1);
+  color: white;
+}
+
+.btn-2:active {
+  background-color: var(--color-2);
+  color: white;
 }

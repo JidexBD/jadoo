@@ -9,11 +9,14 @@ header {
 
 header .hero-section {
   display: flex;
+  justify-content: space-between;
+  gap: 5.4rem;
 }
 /* left side of my hero section */
 .left-hero {
   display: flex;
   flex-direction: column;
+  margin-top: 4rem;
 }
 
 .left-hero h3 {
@@ -33,3 +36,13 @@ header .hero-section {
   width: 100%;
   margin-bottom: 3.4rem;
 }
+
+.right-hero {
+  object-fit: contain;
+}
+
+.right-hero img {
+  width: 100%;
+}
+
+/* there's still a problem with the image positoning and background image */
