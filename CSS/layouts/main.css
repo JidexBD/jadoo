@@ -1,0 +1,49 @@
+/* main related contnent */
+main {
+  padding: 5rem 11.9rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* main sections */
+.category-section {
+  position: relative;
+}
+
+.category-text h4,
+h2 {
+  text-align: center;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10rem;
+  margin-top: 6.6rem;
+}
+
+.cat-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 2.6rem;
+  text-align: center;
+  padding: 4rem;
+}
+
+.g-1 {
+  height: 7rem;
+}
+
+.cat_grid-text p {
+  width: 20rem;
+}
+
+.p-absolute {
+  position: absolute;
+  top: 0rem;
+  right: -10rem;
+  z-index: -1;
+}
