@@ -1,0 +1,81 @@
+.top-selling {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18.6rem;
+  position: relative;
+}
+
+.top-text {
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.top-text h4 {
+  margin-bottom: 0.8rem;
+}
+
+/* grid */
+
+.card-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.card {
+  width: 30.14rem;
+  border-radius: 2.4rem;
+  overflow: hidden;
+  box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.15);
+  background: #fff;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  background: #fff;
+  box-shadow: 0rem 2rem 3rem rgba(0, 0, 0, 0.7);
+  border: 2px solid var(--color-2);
+  border-radius: 3rem;
+}
+
+.card-content {
+  padding: 1.5rem;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 0rem;
+}
+
+.up-card {
+  display: flex;
+  gap: 12.3rem;
+}
+
+.down-card {
+  display: flex;
+  gap: 2rem;
+}
+
+/* the image */
+.card-img {
+  height: 32.7rem;
+}
+
+.img-d {
+  height: auto;
+  width: 100%;
+  transform: translateY(-30%); /* moves the element upward by 30%*/
+}
+
+/*the deoration image */
+.decore2 {
+  width: 9.6rem;
+  height: 25.2rem;
+  position: absolute;
+  bottom: 4rem;
+  right: 5rem;
+  z-index: -1;
+}

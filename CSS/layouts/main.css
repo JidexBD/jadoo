@@ -1,4 +1,4 @@
-/* main related contnent */
+/* main > category  related contnent */
 main {
   padding: 5rem 11.9rem;
   display: flex;
@@ -8,11 +8,16 @@ main {
 /* main sections */
 .category-section {
   position: relative;
+  margin-bottom: 12.3rem;
 }
 
 .category-text h4,
 h2 {
   text-align: center;
+}
+
+.category-text h4 {
+  margin-bottom: 1rem;
 }
 
 .category-grid {
@@ -30,7 +35,7 @@ h2 {
   align-content: center;
   gap: 2.6rem;
   text-align: center;
-  padding: 4rem;
+  position: relative;
 }
 
 .g-1 {
@@ -46,4 +51,38 @@ h2 {
   top: 0rem;
   right: -10rem;
   z-index: -1;
+}
+
+/* hoover */
+.cat-box {
+  padding: 3rem;
+  border-radius: 3.6rem;
+  cursor: pointer;
+  transition: all 0.8s ease-in-out;
+  position: relative;
+}
+
+.cat-box:hover {
+  background: #fff;
+  box-shadow: 0rem 2rem 3rem rgba(0, 0, 0, 0.2);
+}
+
+.cat-box::before {
+  content: "";
+  width: 8.5rem;
+  height: 8.5rem;
+  background-color: var(--color-2);
+  border-top-left-radius: 3rem;
+  border-bottom-right-radius: 1rem;
+  position: absolute;
+  bottom: -3rem;
+  left: -3rem;
+  display: block;
+  opacity: 0; /* or use visibility */
+  z-index: -1;
+  transition: all 0.8s ease-in-out;
+}
+
+.cat-box:hover::before {
+  opacity: 1; /* or visibiliy */
 }
