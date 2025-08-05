@@ -1,0 +1,63 @@
+/* the booking destination sections*/
+.book-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.book-text {
+  margin-bottom: 3.1rem;
+}
+
+.book-text p {
+  margin-bottom: 1.5rem;
+}
+
+.book-text h2 {
+  width: 51rem;
+  text-align: left;
+}
+
+.book-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+
+.step {
+  display: flex;
+  gap: 2rem;
+}
+
+.icon {
+  width: 4.8rem;
+  height: 4.2rem;
+  border-radius: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.i-yellow {
+  background-color: #f0bb1f;
+}
+
+.i-orange {
+  background-color: var(--color-2);
+}
+
+.i-blue {
+  background-color: #006380;
+}
+.ps {
+  padding: 1.3rem;
+  position: relative;
+  right: 0.5rem;
+  color: white;
+}
+
+.step-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0 5rem;
+}
