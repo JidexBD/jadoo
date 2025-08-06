@@ -1,0 +1,78 @@
+.testimonial-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8.7rem;
+  margin-bottom: 9.6rem;
+}
+
+.test-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.test-left h4 {
+  margin-bottom: 0.8rem;
+}
+
+.test-left h2 {
+  margin-bottom: 8.2rem;
+  width: 50.2rem;
+  text-align: left;
+}
+
+.test_profile-img {
+  width: 6.8rem;
+  height: 6.8rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0.3rem;
+  position: absolute;
+  top: -3em;
+  left: -4rem;
+}
+
+.test-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.test-card {
+  width: 45.4rem;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  text-align: start;
+  border-radius: 2.8rem;
+  position: relative;
+}
+
+.text-p1 {
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+  margin-top: 0.9rem;
+  width: 35rem;
+}
+
+.text-p2 {
+  padding-bottom: 0.5rem;
+  padding-left: 3rem;
+}
+
+.text-p3 {
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+}
+
+.test-card-2 {
+  width: 45.4rem;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  text-align: start;
+  align-items: last baseline;
+  border-radius: 1.8rem;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.01);
+  position: relative;
+  top: -9;
+  right: -4rem;
+  z-index: -1;
+}

@@ -4,6 +4,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 35rem;
   align-items: flex-start;
+  margin-bottom: 20rem;
 }
 
 .book-text {
@@ -122,7 +123,8 @@
   width: 26rem;
   position: absolute;
   top: 20rem;
-  right: 30rem;
+  right: 18rem;
+  border-radius: 1.8rem;
 }
 
 .img-flt {
@@ -142,6 +144,13 @@
   flex-direction: column;
 }
 
+.r-side p {
+  margin-bottom: 0.6rem;
+}
+.r-side h4 {
+  margin-bottom: 1.4rem;
+}
+
 .p-bar {
   height: 0.5rem;
   width: 100%;
@@ -153,4 +162,7 @@
   width: 40%;
   height: 100%;
   background-color: #6c63ff;
+}
+.r-side span {
+  color: #6c63ff;
 }
