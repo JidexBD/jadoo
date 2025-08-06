@@ -1,0 +1,38 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 8.4rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.f-grid {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10rem;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer-col h3,
+h4 {
+  color: var(--h1-text);
+}
+
+.l-col {
+  display: flex;
+  justify-content: flex-start;
+}
+.foot-btns a {
+  width: 10.7rem;
+  height: 3.6rem;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  border-radius: 2rem;
+}
