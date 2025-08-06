@@ -2,7 +2,7 @@
 .book-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  gap: 35rem;
   align-items: flex-start;
 }
 
@@ -34,8 +34,6 @@
   width: 4.8rem;
   height: 4.2rem;
   border-radius: 1rem;
-  text-align: center;
-  position: relative;
 }
 
 .i-yellow {
@@ -50,9 +48,7 @@
   background-color: #006380;
 }
 .ps {
-  padding: 1.3rem;
-  position: relative;
-  right: 0.5rem;
+  margin: 1.3rem 1.4rem;
   color: white;
 }
 
@@ -60,4 +56,101 @@
   display: flex;
   flex-direction: column;
   gap: 0 5rem;
+}
+
+.book-right {
+  position: relative;
+}
+
+.dest-card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  width: 30rem;
+}
+
+.dest-card img {
+  width: 100%;
+  height: 10ren;
+  object-fit: cover;
+  border-radius: 2.4rem;
+  margin-bottom: 1rem;
+}
+.blue-shadow {
+  box-shadow: 40px -40px 60px rgba(135, 206, 250, 0.4);
+}
+
+.dest-card h4 {
+  margin-bottom: 1.4rem;
+  color: var(--color-4);
+}
+.dest-card p {
+  margin-bottom: 2.1rem;
+  color: var(--color-4);
+}
+
+.dest-icon {
+  display: flex;
+  gap: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.dest-icon span {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+}
+
+.i-i {
+  margin: 1.2rem 1rem;
+}
+
+.dest-last {
+  display: flex;
+  gap: 1.8rem;
+  color: var(--color-4);
+}
+
+.float-dest {
+  display: flex;
+  gap: 2rem;
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  width: 26rem;
+  position: absolute;
+  top: 20rem;
+  right: 30rem;
+}
+
+.img-flt {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.flt-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.r-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-bar {
+  height: 0.5rem;
+  width: 100%;
+  background: #eee;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.fill-color {
+  width: 40%;
+  height: 100%;
+  background-color: #6c63ff;
 }
