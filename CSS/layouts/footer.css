@@ -36,3 +36,18 @@ h4 {
   padding: 1rem;
   border-radius: 2rem;
 }
+
+#under-logo {
+  width: 20rem;
+}
+.store {
+  text-align: center;
+}
+
+.str-img {
+  width: 2rem;
+  height: 1.8rem;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  margin-bottom: -0.2rem;
+}
